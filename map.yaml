@@ -1,0 +1,8 @@
+themes:
+  - url: "10_IDE"
+    title: "Среда разработки"
+    slides:
+      - url: "10_project"
+        title: "Структура проекта"
+        slide: 2
+        quiz: 2
