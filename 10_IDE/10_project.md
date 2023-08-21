@@ -3,7 +3,7 @@
 ~-~
 
 <div class='quiz' data-quiz='{ 
-    "question": "Вопрос с одним правильным ответом,
+    "question": "Вопрос с одним правильным ответом",
     "type": "Single",
     "answers": [
         { "isRight":true, "text":"<b>Ответ 1</b>"},
