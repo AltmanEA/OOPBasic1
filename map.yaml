@@ -1,8 +1,12 @@
 themes:
-  - url: "10_IDE"
-    title: "Среда разработки"
+  - url: "10_intro"
+    title: "Введение"
     slides:
-      - url: "10_project"
-        title: "Структура проекта"
-        slide: 2
-        quiz: 2
+      - url: "10_about"
+        title: "О курсе"
+        slide: 7
+        quiz: 1
+      - url: "20_project"
+        title: "Средства разработки"
+        slide: 17
+        quiz: 6        
