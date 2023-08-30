@@ -9,4 +9,11 @@ themes:
       - url: "20_project"
         title: "Средства разработки"
         slide: 17
-        quiz: 6        
+        quiz: 6
+      - url: "30_debug"
+        title: "Отладка и тестирование"
+        slide: 12
+        quiz: 6
+  - url: "20_typescript"
+    title: "Основы typescript (в разработке)"
+    slides:          
