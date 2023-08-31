@@ -229,6 +229,7 @@ webpack
 const message = 'Привет мир!'
 console.log(message)
 ```
+[Архив с файлами конфигурации](project1.zip)
 
 ---
 
