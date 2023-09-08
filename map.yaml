@@ -16,4 +16,12 @@ themes:
         quiz: 6
   - url: "20_typescript"
     title: "Основы typescript (в разработке)"
-    slides:          
+    slides:
+      - url: "10_var"
+        title: "Переменные и операции"
+        slide: 16
+        quiz: 6
+      - url: "20_control"
+        title: "Управляющие конструкции"
+        slide: 7
+        quiz: 1
