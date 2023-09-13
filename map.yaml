@@ -23,5 +23,9 @@ themes:
         quiz: 6
       - url: "20_control"
         title: "Управляющие конструкции"
-        slide: 7
-        quiz: 1
+        slide: 12
+        quiz: 6
+      - url: "30_features"
+        title: "Особенности JS"
+        slide: 8
+        quiz: 4

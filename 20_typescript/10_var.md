@@ -87,7 +87,7 @@ console.log(a.replace("рок", "джаз"))
 ---
 
 <div class='quiz' data-quiz='{ 
-    "question": "Какие свойтсва у строк есть в JS?",    
+    "question": "Какие свойства у строк есть в JS?",    
     "answers": [
         { "isRight":true, "text":"<code>length</code>"},
         { "isRight":false, "text":"<code>size</code>"},
@@ -246,7 +246,7 @@ undefined2
 
 ---
 
-### Отсутсвующие данные
+### Отсутствующие данные
 
 ```typescript
 
@@ -267,7 +267,7 @@ const leaf: HTMLElement | null = document.getElementById("leaf")
 
 ---
 
-### Обработка отсутсвующих данных
+### Обработка отсутствующих данных
 
 ```typescript
 const root: HTMLElement | null = document.getElementById("root")
@@ -295,7 +295,7 @@ console.log(b)
 ```
 
 ```typescript
-var b = a.toUpperCase();
+let b = a.toUpperCase();
           ^
 
 TypeError: a.toUpperCase is not a function
