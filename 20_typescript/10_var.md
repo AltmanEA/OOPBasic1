@@ -102,6 +102,7 @@ console.log(a.replace("рок", "джаз"))
 
 ```typescript
 const arr: number[] = [1, 2, 3]
+const x: number[] = new Array(9)
 
 const complex_array: string[][] = [["one"], ["one", "two"]]
 
