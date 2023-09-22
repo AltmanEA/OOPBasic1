@@ -15,7 +15,7 @@ themes:
         slide: 12
         quiz: 6
   - url: "20_typescript"
-    title: "Основы typescript (в разработке)"
+    title: "Основы typescript"
     slides:
       - url: "10_var"
         title: "Переменные и операции"
