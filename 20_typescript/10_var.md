@@ -181,11 +181,14 @@ const arr: number[] = [1, 2, 3, 4, 5]
 
 const try_change = [arr.slice(3,5), arr[2], arr.slice(0,2)]
 const change = [...arr.slice(3,5), arr[2], ...arr.slice(0,2)]
+
+console.log(try_change)
+console.log(change)
 ```
 
 ```typescript
-console.log(try_change)
-console.log(change)
+[ [ 4, 5 ], 3, [ 1, 2 ] ]
+[ 4, 5, 3, 1, 2 ]
 ```
 
 ---

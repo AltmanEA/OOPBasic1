@@ -29,3 +29,5 @@ themes:
         title: "Особенности JS"
         slide: 8
         quiz: 4
+  - url: "30_object"
+    title: "Объекты (в разработке)"        
