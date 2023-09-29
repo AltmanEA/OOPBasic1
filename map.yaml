@@ -30,4 +30,9 @@ themes:
         slide: 8
         quiz: 4
   - url: "30_object"
-    title: "Объекты (в разработке)"        
+    title: "Объекты (в разработке)"
+    slides:
+      - url: "10_object"
+        title: "Объекты"
+        slide: 13
+        quiz: 6        
