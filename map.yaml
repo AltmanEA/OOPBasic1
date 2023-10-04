@@ -36,3 +36,7 @@ themes:
         title: "Объекты"
         slide: 13
         quiz: 6        
+      - url: "20_method"
+        title: "Методы объектов"
+        slide: 13
+        quiz: 6
