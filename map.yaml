@@ -40,7 +40,9 @@ themes:
         title: "Методы объектов"
         slide: 12
         quiz: 6
-      - url: "20_method"
+      - url: "30_types"
         title: "Типы объектов"
-        slide: 12
-        quiz: 6        
+        slide: 8
+        quiz: 4        
+  - url: "40_class"
+    title: "Классы (в разработке)"        
