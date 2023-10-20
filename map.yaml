@@ -46,3 +46,8 @@ themes:
         quiz: 4        
   - url: "40_class"
     title: "Классы (в разработке)"        
+    slides:
+      - url: "10_class"
+        title: "Понятие класса"
+        slide: 14
+        quiz: 6          
