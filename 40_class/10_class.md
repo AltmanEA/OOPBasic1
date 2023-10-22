@@ -40,8 +40,8 @@ console.log(ivan.first_name, ivan.last_name)
 
 ```typescript
 class Student {
-    first_name: string
-    last_name: string            
+    readonly first_name: string
+    readonly last_name: string            
     constructor(first_name: string, last_name: string) {
         this.first_name = first_name
         this.last_name = last_name

@@ -50,4 +50,8 @@ themes:
       - url: "10_class"
         title: "Понятие класса"
         slide: 14
-        quiz: 6          
+        quiz: 6
+      - url: "20_safe"
+        title: "Безопасность класса"
+        slide: 14
+        quiz: 6           
