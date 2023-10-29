@@ -53,5 +53,9 @@ themes:
         quiz: 6
       - url: "20_safe"
         title: "Безопасность класса"
-        slide: 14
+        slide: 15
         quiz: 6           
+      - url: "30_type"
+        title: "Классы и типы"
+        slide: 15
+        quiz: 6          

@@ -56,6 +56,25 @@ console.log(count.add(count))
 
 ---
 
+### Сокращенная форма класса
+
+```typescript
+class Student {        
+    constructor(
+        public first_name: string, 
+        public last_name: string
+        ) {       
+    }
+}
+const ivan = new Student("Иван", "Иванов")
+console.log(ivan.first_name, ivan.last_name)
+```
+```typescript
+Иван Иванов
+```
+
+---
+
 <div class='quiz' data-quiz='{ 
     "question": "Какой модификатор доступа не используется в TS?",    
     "answers": [
