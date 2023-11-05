@@ -57,5 +57,5 @@ themes:
         quiz: 6           
       - url: "30_type"
         title: "Классы и типы"
-        slide: 15
-        quiz: 6          
+        slide: 10
+        quiz: 5          
