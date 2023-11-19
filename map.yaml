@@ -58,4 +58,11 @@ themes:
       - url: "30_type"
         title: "Классы и типы"
         slide: 10
-        quiz: 5          
+        quiz: 5
+  - url: "50_inherit"
+    title: "Родственные классы (в разработке)"        
+    slides:
+      - url: "10_composition"
+        title: "Композиция классов"
+        slide: 14
+        quiz: 6        
