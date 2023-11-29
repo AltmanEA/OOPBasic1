@@ -64,5 +64,10 @@ themes:
     slides:
       - url: "10_composition"
         title: "Композиция классов"
+        slide: 13
+        quiz: 6
+      - url: "20_inherit"
+        title: "Наследование"
         slide: 14
-        quiz: 6        
+        quiz: 6
+            
