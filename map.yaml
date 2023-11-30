@@ -27,7 +27,7 @@ themes:
         quiz: 6
       - url: "30_features"
         title: "Особенности JS"
-        slide: 8
+        slide: 7
         quiz: 4
   - url: "30_object"
     title: "Объекты"
@@ -45,7 +45,7 @@ themes:
         slide: 8
         quiz: 4        
   - url: "40_class"
-    title: "Классы (в разработке)"        
+    title: "Классы"        
     slides:
       - url: "10_class"
         title: "Понятие класса"
@@ -53,7 +53,7 @@ themes:
         quiz: 6
       - url: "20_safe"
         title: "Безопасность класса"
-        slide: 15
+        slide: 10
         quiz: 6           
       - url: "30_type"
         title: "Классы и типы"
@@ -70,4 +70,8 @@ themes:
         title: "Наследование"
         slide: 14
         quiz: 6
-            
+      - url: "30_Mixin"
+        title: "Примеси и декораторы"
+        slide: 14
+        quiz: 6
+        
