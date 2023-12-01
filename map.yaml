@@ -70,7 +70,7 @@ themes:
         title: "Наследование"
         slide: 14
         quiz: 6
-      - url: "30_Mixin"
+      - url: "30_mixin"
         title: "Примеси и декораторы"
         slide: 14
         quiz: 6

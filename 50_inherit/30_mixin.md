@@ -85,7 +85,7 @@ interface Sprite extends Jumpable, Duckable { }
 
 ---
 
-### Применение примесей JS
+### Функция для добавления примесей
 
 ```typescript
 function applyMixins(derivedCtor: any, constructors: any[]) {
@@ -101,3 +101,69 @@ Object.getOwnPropertyNames(baseCtor.prototype)
     })
 }
 ```
+
+---
+
+### Применение примесей JS
+
+```typescript
+applyMixins(Sprite, [Jumpable, Duckable])
+ 
+let player = new Sprite();
+player.jump()
+console.log(player.x, player.y)
+```
+
+----
+
+### Декоратор метода
+
+```typescript
+function loggedMethod(
+  originalMethod: any, 
+  context: ClassMethodDecoratorContext) {
+    const methodName = String(context.name);
+    function replacementMethod(this: any, ...args: any[]) {
+        console.log(`LOG: Entering method '${methodName}'.`)
+        const result = originalMethod.call(this, ...args);
+        console.log(`LOG: Exiting method '${methodName}'.`)
+        return result }
+    return replacementMethod
+}
+```
+
+---
+
+### Декоратор метода
+
+```typescript
+class Person {
+    name: string;
+    constructor(name: string) {
+        this.name = name;
+    }
+    @loggedMethod
+    greet() {
+        console.log(`Hello, my name is ${this.name}.`);
+    }
+}
+const p = new Person("Ron");
+p.greet();
+```
+```
+LOG: Entering method.
+Hello, my name is Ron.
+LOG: Exiting method.
+```
+
+---
+
+### Декоратор 
+
+```typescript
+type SyntheticDecorator<T, C, R> = 
+  (target: T, context: C) => R | void
+```
+
+
+
