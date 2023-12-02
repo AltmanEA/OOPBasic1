@@ -74,4 +74,10 @@ themes:
         title: "Примеси и декораторы"
         slide: 14
         quiz: 6
-        
+  - url: "60_error"
+    title: "Обработка ошибок (в разработке)"        
+    slides:
+      - url: "10_error"
+        title: "Блок try"
+        slide: 12
+        quiz: 6        
