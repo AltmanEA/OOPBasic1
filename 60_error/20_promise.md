@@ -51,6 +51,31 @@ async function getSiteAsync(url: string): Promise<void> {
 }
 ```
 
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какие обработчики можно «навешать» на promise?",    
+    "answers": [
+        { "isRight":false, "text":"<code>onfinish</code>"},
+        { "isRight":false, "text":"<code>onclick</code>"},
+        { "isRight":true, "text":"<code>onrejected</code>"},
+        { "isRight":true, "text":"<code>onfulfilled</code>"}
+    ]
+}'></div>
+
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какой модификатор функции указывает на то, что она возвращает promise?",    
+    "answers": [
+        { "isRight":false, "text":"<code>promise</code>"},
+        { "isRight":false, "text":"<code>public</code>"},
+        { "isRight":false, "text":"<code>await</code>"},
+        { "isRight":true, "text":"<code>async</code>"}
+    ]
+}'></div>
+
 ----
 
 ### Несколько асинхронных вызовов
@@ -92,6 +117,18 @@ Error
 <!doctype html><html prefix="o
 ```
 
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какие методы есть у promise?",    
+    "answers": [
+        { "isRight":false, "text":"<code>finally</code>"},
+        { "isRight":false, "text":"<code>try</code>"},
+        { "isRight":true, "text":"<code>catch</code>"},
+        { "isRight":true, "text":"<code>then</code>"}
+    ]
+}'></div>
+
 ----
 
 ### Параллельное исполнение
@@ -119,3 +156,28 @@ Promise.race(urls.map(url => fetch(url)))
 ```
 Error
 ```
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какой метод класса <code>Promise</code> возвращает promise c массивом результатов других promise?",    
+    "answers": [
+        { "isRight":false, "text":"<code>map</code>"},
+        { "isRight":false, "text":"<code>array</code>"},
+        { "isRight":false, "text":"<code>race</code>"},
+        { "isRight":true, "text":"<code>all</code>"}
+    ]
+}'></div>
+
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какой метод класса <code>Promise</code> возвращает первый завершившийся promise?",    
+    "answers": [
+        { "isRight":false, "text":"<code>map</code>"},
+        { "isRight":false, "text":"<code>array</code>"},
+        { "isRight":true, "text":"<code>race</code>"},
+        { "isRight":false, "text":"<code>all</code>"}
+    ]
+}'></div>

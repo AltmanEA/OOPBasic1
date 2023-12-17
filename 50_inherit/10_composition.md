@@ -50,6 +50,31 @@ class Person {
 //  из типа "Person": students, name ts(2739)
 ```
 
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "При реализации какого отношения в одном классе создается ссылка на другой класс?",    
+    "answers": [
+        { "isRight":true, "text":"композиция"},
+        { "isRight":false, "text":"наследование"},
+        { "isRight":true, "text":"агрегация"},
+        { "isRight":false, "text":"обобщение"}
+    ]
+}'></div>
+
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "При каком типе ассоциации время жизни связанных объектов может не совпадать?",    
+    "answers": [
+        { "isRight":false, "text":"композиция"},
+        { "isRight":false, "text":"наследование"},
+        { "isRight":true, "text":"агрегация"},
+        { "isRight":false, "text":"обобщение"}
+    ]
+}'></div>
+
 ----
 
 ### Обобщение
@@ -59,6 +84,18 @@ class Person {
 ---
 
 ### Плюсы и минусы обобщения
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "В каком виде связи классов используются параметры типа?",    
+    "answers": [
+        { "isRight":false, "text":"композиция"},
+        { "isRight":false, "text":"наследование"},
+        { "isRight":false, "text":"агрегация"},
+        { "isRight":true, "text":"обобщение"}
+    ]
+}'></div>
 
 ----
 
@@ -92,6 +129,30 @@ console.log(`${ivan}`)
 ```typescript
 Иван, гр. 22з 
 ```
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "В каком виде связи классов переписываются свойства из одного класса в другой?",    
+    "answers": [
+        { "isRight":false, "text":"композиция"},
+        { "isRight":true, "text":"наследование"},
+        { "isRight":false, "text":"агрегация"},
+        { "isRight":false, "text":"обобщение"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какое ключевое слово используется при наследовании класса?",    
+    "answers": [
+        { "isRight":false, "text":"implements"},
+        { "isRight":true, "text":"extends"},
+        { "isRight":false, "text":"abstract"},
+        { "isRight":false, "text":"public"}
+    ]
+}'></div>
 
 ----
 
@@ -127,3 +188,15 @@ console.log(`${ivan}`)
 ```typescript
 Иван, гр. 22з 
 ```
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какое ключевое слово используется при реализации интерфейса?",    
+    "answers": [
+        { "isRight":true, "text":"implements"},
+        { "isRight":false, "text":"extends"},
+        { "isRight":false, "text":"abstract"},
+        { "isRight":false, "text":"public"}
+    ]
+}'></div>

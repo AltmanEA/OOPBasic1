@@ -6,7 +6,7 @@ function sumInt(a: string, b: string): number | null {
     if (Number.isNaN(an)) return null
     if (an % 1 !== 0) return null
     const bn = Number(b)
-    if (Number.isNaN(an)) return null
+    if (Number.isNaN(bn)) return null
     if (bn % 1 !== 0) return null
     return an + bn
 }
@@ -51,6 +51,30 @@ console.log(longEval("1", "1"))
 console.log(longEval("0.1", "1"))
 console.log(longEval("a", "b"))
 ```
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какой код помечается блоком <code>try</code>?",    
+    "answers": [
+        { "isRight":true, "text":"в котором может быть исключение"},
+        { "isRight":false, "text":"который обрабатывает исключение"},
+        { "isRight":false, "text":"который выбрасывает исключение"},
+        { "isRight":false, "text":"в котором не может быть исключений"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какой код помечается блоком <code>catch</code>?",    
+    "answers": [
+        { "isRight":false, "text":"в котором может быть исключение"},
+        { "isRight":true, "text":"который обрабатывает исключение"},
+        { "isRight":false, "text":"который выбрасывает исключение"},
+        { "isRight":false, "text":"в котором не может быть исключений"}
+    ]
+}'></div>
 
 ----
 
@@ -108,6 +132,30 @@ name:  SyntaxError
 - SyntaxError
 - TypeError
 - InternalError 
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Объект какого типа передается в блок <code>catch</code>?",    
+    "answers": [
+        { "isRight":false, "text":"<code>Error</code>"},
+        { "isRight":true, "text":"<code>unknown</code>"},
+        { "isRight":false, "text":"<code>null</code>"},
+        { "isRight":false, "text":"<code>undefined</code>"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какие свойства есть в классе <code>Error</code>?",    
+    "answers": [
+        { "isRight":true, "text":"<code>message</code>"},
+        { "isRight":true, "text":"<code>name</code>"},
+        { "isRight":true, "text":"<code>stack</code>"},
+        { "isRight":false, "text":"<code>source</code>"}
+    ]
+}'></div>
 
 ----
 
@@ -194,6 +242,31 @@ It is not index
     at new NotIndexError (C:\work\project\dist\index.js:20:28)
 ```
 
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какое ключевое слово используется для выбрасывания исключения?",    
+    "answers": [
+        { "isRight":true, "text":"<code>throw</code>"},
+        { "isRight":false, "text":"<code>try</code>"},
+        { "isRight":false, "text":"<code>catch</code>"},
+        { "isRight":false, "text":"<code>finally</code>"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какое ключевое слово используется для анализа класса исключения?",    
+    "answers": [
+        { "isRight":true, "text":"<code>instanceof</code>"},
+        { "isRight":false, "text":"<code>typeof</code>"},
+        { "isRight":false, "text":"<code>is</code>"},
+        { "isRight":false, "text":"с"}
+    ]
+}'></div>
+
+
 ----
 
 ### Общий синтаксис
@@ -223,3 +296,27 @@ function getDay(number: number): string {
 ```java
 public String input() throws MyException
 ```
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какое ключевое слово используется для завершения обработки не зависимо от того, были ли исключения?",    
+    "answers": [
+        { "isRight":false, "text":"<code>throw</code>"},
+        { "isRight":false, "text":"<code>try</code>"},
+        { "isRight":false, "text":"<code>catch</code>"},
+        { "isRight":true, "text":"<code>finally</code>"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какие недостатки у обработки ошибок с помощью исключений?",    
+    "answers": [
+        { "isRight":false, "text":"разделяется логика программы и обработки ошибок"},
+        { "isRight":false, "text":"нет возможности отследить источник ошибок"},
+        { "isRight":false, "text":"замедляется выполнение программы"},
+        { "isRight":true, "text":"в сигнатуре функций нет исключений"}
+    ]
+}'></div>

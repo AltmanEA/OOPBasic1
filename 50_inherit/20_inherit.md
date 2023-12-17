@@ -82,6 +82,30 @@ class Student extends Person implements View, Action {
     }
 ```
 
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "После какого ключевого слово может идти перечисление элементов через запятую?",    
+    "answers": [
+        { "isRight":true, "text":"implements"},
+        { "isRight":false, "text":"extends"},
+        { "isRight":false, "text":"abstract"},
+        { "isRight":false, "text":"public"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какие ключевые слова записываются после имени класса?",    
+    "answers": [
+        { "isRight":true, "text":"implements"},
+        { "isRight":true, "text":"extends"},
+        { "isRight":false, "text":"abstract"},
+        { "isRight":false, "text":"public"}
+    ]
+}'></div>
+
 ----
 
 ### Абстрактный класс
@@ -160,6 +184,30 @@ const ivan = Person.create(Student, ["Иван", "22з"])
 console.log(ivan.print())
 ```
 
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Перед чем из перечисленного может быть ключевое слово abstract?",    
+    "answers": [
+        { "isRight":true, "text":"класс"},
+        { "isRight":true, "text":"поле"},
+        { "isRight":true, "text":"метод"},
+        { "isRight":false, "text":"конструктор"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какой код может вызывать конструктор абстрактного класса?",    
+    "answers": [
+        { "isRight":true, "text":"<code>super()</code>"},
+        { "isRight":false, "text":"<code>super.constructor()</code>"},
+        { "isRight":false, "text":"<code>abstract()</code>"},
+        { "isRight":false, "text":"<code>constructor()</code>"}
+    ]
+}'></div>
+
 ----
 
 ### Интерфейсы 
@@ -198,3 +246,27 @@ console.log(ivan.print())
 
 Класс, не предназначенный для создания объектов, реализует определенный аспект.
 Ограничения примесей и реализация идеи различаются в различных языках.
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Что из перечисленного справедливо для интерфейсов?",    
+    "answers": [
+        { "isRight":false, "text":"Можно создавать объекты соответствующего типа"},
+        { "isRight":true, "text":"Можно создавать ссылки на объекты соответствующего типа"},
+        { "isRight":true, "text":"Для создание объектов требуется реализация свойств"},
+        { "isRight":false, "text":"Есть конструктор"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Что из перечисленного справедливо для абстрактных классов?",    
+    "answers": [
+        { "isRight":false, "text":"Можно создавать объекты соответствующего типа"},
+        { "isRight":true, "text":"Можно создавать ссылки на объекты соответствующего типа"},
+        { "isRight":true, "text":"Для создание объектов требуется реализация свойств"},
+        { "isRight":true, "text":"Есть конструктор"}
+    ]
+}'></div>

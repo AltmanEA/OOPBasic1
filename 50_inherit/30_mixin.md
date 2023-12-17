@@ -65,6 +65,31 @@ function Jumpable<TBase extends Positionable>(Base: TBase) {
   }
 ```
 
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Что представляет собой примесь?",    
+    "answers": [
+        { "isRight":false, "text":"класс"},
+        { "isRight":false, "text":"поле"},
+        { "isRight":true, "text":"функцию"},
+        { "isRight":false, "text":"объект"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какой аргумент передается примеси?",    
+    "answers": [
+        { "isRight":false, "text":"класс"},
+        { "isRight":false, "text":"поле"},
+        { "isRight":true, "text":"конструктор"},
+        { "isRight":false, "text":"метод"}
+    ]
+}'></div>
+
+
 ----
 
 ### Примеси JS
@@ -113,6 +138,18 @@ let player = new Sprite();
 player.jump()
 console.log(player.x, player.y)
 ```
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какой аргумент передается функции applyMixins?",    
+    "answers": [
+        { "isRight":false, "text":"класс и конструкторы"},
+        { "isRight":false, "text":"конструкторы"},
+        { "isRight":true, "text":"объект и конструкторы"},
+        { "isRight":false, "text":"класс и функции"}
+    ]
+}'></div>
 
 ----
 
@@ -165,5 +202,27 @@ type SyntheticDecorator<T, C, R> =
   (target: T, context: C) => R | void
 ```
 
+---
 
+<div class='quiz' data-quiz='{ 
+    "question": "Что представляет собой декоратор?",    
+    "answers": [
+        { "isRight":false, "text":"класс"},
+        { "isRight":false, "text":"поле"},
+        { "isRight":true, "text":"функцию"},
+        { "isRight":false, "text":"объект"}
+    ]
+}'></div>
+
+---
+
+<div class='quiz' data-quiz='{ 
+    "question": "Какие аргументы передаются декоратору метода?",    
+    "answers": [
+        { "isRight":true, "text":"метод и контекст"},
+        { "isRight":false, "text":"метод и конструктор"},
+        { "isRight":false, "text":"метод"},
+        { "isRight":false, "text":"метод и примесь"}
+    ]
+}'></div>
 

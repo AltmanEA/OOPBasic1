@@ -68,24 +68,24 @@ themes:
         quiz: 6
       - url: "20_inherit"
         title: "Наследование"
-        slide: 14
+        slide: 34
         quiz: 6
       - url: "30_mixin"
         title: "Примеси и декораторы"
-        slide: 14
-        quiz: 6
+        slide: 10
+        quiz: 5
   - url: "60_error"
     title: "Обработка ошибок (в разработке)"        
     slides:
       - url: "10_error"
         title: "Блок try"
         slide: 12
-        quiz: 6
+        quiz: 8
       - url: "20_promise"
         title: "Асинхронные функции"
         slide: 7
-        quiz: 6
+        quiz: 5
       - url: "30_func"
         title: "Функциональная обработка ошибок"
         slide: 13
-        quiz: 6        
+        quiz: 0        
